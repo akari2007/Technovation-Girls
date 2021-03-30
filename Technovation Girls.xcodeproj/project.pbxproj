@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7230731B2612FF960051EBBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230731A2612FF960051EBBC /* AppDelegate.swift */; };
+		7230731D2612FF960051EBBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230731C2612FF960051EBBC /* SceneDelegate.swift */; };
+		7230731F2612FF960051EBBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230731E2612FF960051EBBC /* ViewController.swift */; };
+		723073222612FF960051EBBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723073202612FF960051EBBC /* Main.storyboard */; };
+		723073242612FF9A0051EBBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723073232612FF9A0051EBBC /* Assets.xcassets */; };
+		723073272612FF9A0051EBBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723073252612FF9A0051EBBC /* LaunchScreen.storyboard */; };
+		723073322612FF9A0051EBBC /* Technovation_GirlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723073312612FF9A0051EBBC /* Technovation_GirlsTests.swift */; };
+		7230733D2612FF9A0051EBBC /* Technovation_GirlsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230733C2612FF9A0051EBBC /* Technovation_GirlsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7230732E2612FF9A0051EBBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7230730F2612FF950051EBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 723073162612FF960051EBBC;
+			remoteInfo = "Technovation Girls";
+		};
+		723073392612FF9A0051EBBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7230730F2612FF950051EBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 723073162612FF960051EBBC;
+			remoteInfo = "Technovation Girls";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		723073172612FF960051EBBC /* Technovation Girls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Technovation Girls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7230731A2612FF960051EBBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7230731C2612FF960051EBBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7230731E2612FF960051EBBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		723073212612FF960051EBBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		723073232612FF9A0051EBBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		723073262612FF9A0051EBBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		723073282612FF9A0051EBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7230732D2612FF9A0051EBBC /* Technovation GirlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Technovation GirlsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		723073312612FF9A0051EBBC /* Technovation_GirlsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technovation_GirlsTests.swift; sourceTree = "<group>"; };
+		723073332612FF9A0051EBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723073382612FF9A0051EBBC /* Technovation GirlsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Technovation GirlsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7230733C2612FF9A0051EBBC /* Technovation_GirlsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technovation_GirlsUITests.swift; sourceTree = "<group>"; };
+		7230733E2612FF9A0051EBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		723073142612FF960051EBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7230732A2612FF9A0051EBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723073352612FF9A0051EBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7230730E2612FF950051EBBC = {
+			isa = PBXGroup;
+			children = (
+				723073192612FF960051EBBC /* Technovation Girls */,
+				723073302612FF9A0051EBBC /* Technovation GirlsTests */,
+				7230733B2612FF9A0051EBBC /* Technovation GirlsUITests */,
+				723073182612FF960051EBBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		723073182612FF960051EBBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				723073172612FF960051EBBC /* Technovation Girls.app */,
+				7230732D2612FF9A0051EBBC /* Technovation GirlsTests.xctest */,
+				723073382612FF9A0051EBBC /* Technovation GirlsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		723073192612FF960051EBBC /* Technovation Girls */ = {
+			isa = PBXGroup;
+			children = (
+				723073202612FF960051EBBC /* Main.storyboard */,
+				7230731A2612FF960051EBBC /* AppDelegate.swift */,
+				7230731C2612FF960051EBBC /* SceneDelegate.swift */,
+				7230731E2612FF960051EBBC /* ViewController.swift */,
+				723073232612FF9A0051EBBC /* Assets.xcassets */,
+				723073252612FF9A0051EBBC /* LaunchScreen.storyboard */,
+				723073282612FF9A0051EBBC /* Info.plist */,
+			);
+			path = "Technovation Girls";
+			sourceTree = "<group>";
+		};
+		723073302612FF9A0051EBBC /* Technovation GirlsTests */ = {
+			isa = PBXGroup;
+			children = (
+				723073312612FF9A0051EBBC /* Technovation_GirlsTests.swift */,
+				723073332612FF9A0051EBBC /* Info.plist */,
+			);
+			path = "Technovation GirlsTests";
+			sourceTree = "<group>";
+		};
+		7230733B2612FF9A0051EBBC /* Technovation GirlsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7230733C2612FF9A0051EBBC /* Technovation_GirlsUITests.swift */,
+				7230733E2612FF9A0051EBBC /* Info.plist */,
+			);
+			path = "Technovation GirlsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		723073162612FF960051EBBC /* Technovation Girls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723073412612FF9A0051EBBC /* Build configuration list for PBXNativeTarget "Technovation Girls" */;
+			buildPhases = (
+				723073132612FF960051EBBC /* Sources */,
+				723073142612FF960051EBBC /* Frameworks */,
+				723073152612FF960051EBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Technovation Girls";
+			productName = "Technovation Girls";
+			productReference = 723073172612FF960051EBBC /* Technovation Girls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7230732C2612FF9A0051EBBC /* Technovation GirlsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723073442612FF9A0051EBBC /* Build configuration list for PBXNativeTarget "Technovation GirlsTests" */;
+			buildPhases = (
+				723073292612FF9A0051EBBC /* Sources */,
+				7230732A2612FF9A0051EBBC /* Frameworks */,
+				7230732B2612FF9A0051EBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7230732F2612FF9A0051EBBC /* PBXTargetDependency */,
+			);
+			name = "Technovation GirlsTests";
+			productName = "Technovation GirlsTests";
+			productReference = 7230732D2612FF9A0051EBBC /* Technovation GirlsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		723073372612FF9A0051EBBC /* Technovation GirlsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723073472612FF9A0051EBBC /* Build configuration list for PBXNativeTarget "Technovation GirlsUITests" */;
+			buildPhases = (
+				723073342612FF9A0051EBBC /* Sources */,
+				723073352612FF9A0051EBBC /* Frameworks */,
+				723073362612FF9A0051EBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7230733A2612FF9A0051EBBC /* PBXTargetDependency */,
+			);
+			name = "Technovation GirlsUITests";
+			productName = "Technovation GirlsUITests";
+			productReference = 723073382612FF9A0051EBBC /* Technovation GirlsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7230730F2612FF950051EBBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					723073162612FF960051EBBC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					7230732C2612FF9A0051EBBC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 723073162612FF960051EBBC;
+					};
+					723073372612FF9A0051EBBC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 723073162612FF960051EBBC;
+					};
+				};
+			};
+			buildConfigurationList = 723073122612FF950051EBBC /* Build configuration list for PBXProject "Technovation Girls" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7230730E2612FF950051EBBC;
+			productRefGroup = 723073182612FF960051EBBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				723073162612FF960051EBBC /* Technovation Girls */,
+				7230732C2612FF9A0051EBBC /* Technovation GirlsTests */,
+				723073372612FF9A0051EBBC /* Technovation GirlsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		723073152612FF960051EBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723073272612FF9A0051EBBC /* LaunchScreen.storyboard in Resources */,
+				723073242612FF9A0051EBBC /* Assets.xcassets in Resources */,
+				723073222612FF960051EBBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7230732B2612FF9A0051EBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723073362612FF9A0051EBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		723073132612FF960051EBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7230731F2612FF960051EBBC /* ViewController.swift in Sources */,
+				7230731B2612FF960051EBBC /* AppDelegate.swift in Sources */,
+				7230731D2612FF960051EBBC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723073292612FF9A0051EBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723073322612FF9A0051EBBC /* Technovation_GirlsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723073342612FF9A0051EBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7230733D2612FF9A0051EBBC /* Technovation_GirlsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7230732F2612FF9A0051EBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 723073162612FF960051EBBC /* Technovation Girls */;
+			targetProxy = 7230732E2612FF9A0051EBBC /* PBXContainerItemProxy */;
+		};
+		7230733A2612FF9A0051EBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 723073162612FF960051EBBC /* Technovation Girls */;
+			targetProxy = 723073392612FF9A0051EBBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		723073202612FF960051EBBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				723073212612FF960051EBBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		723073252612FF9A0051EBBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				723073262612FF9A0051EBBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7230733F2612FF9A0051EBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		723073402612FF9A0051EBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		723073422612FF9A0051EBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Technovation Girls/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Kubota.Akari.Technovation-Girls";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		723073432612FF9A0051EBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Technovation Girls/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Kubota.Akari.Technovation-Girls";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		723073452612FF9A0051EBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Technovation GirlsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Kubota.Akari.Technovation-GirlsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Technovation Girls.app/Technovation Girls";
+			};
+			name = Debug;
+		};
+		723073462612FF9A0051EBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Technovation GirlsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Kubota.Akari.Technovation-GirlsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Technovation Girls.app/Technovation Girls";
+			};
+			name = Release;
+		};
+		723073482612FF9A0051EBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Technovation GirlsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Kubota.Akari.Technovation-GirlsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Technovation Girls";
+			};
+			name = Debug;
+		};
+		723073492612FF9A0051EBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Technovation GirlsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Kubota.Akari.Technovation-GirlsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Technovation Girls";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		723073122612FF950051EBBC /* Build configuration list for PBXProject "Technovation Girls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7230733F2612FF9A0051EBBC /* Debug */,
+				723073402612FF9A0051EBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		723073412612FF9A0051EBBC /* Build configuration list for PBXNativeTarget "Technovation Girls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723073422612FF9A0051EBBC /* Debug */,
+				723073432612FF9A0051EBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		723073442612FF9A0051EBBC /* Build configuration list for PBXNativeTarget "Technovation GirlsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723073452612FF9A0051EBBC /* Debug */,
+				723073462612FF9A0051EBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		723073472612FF9A0051EBBC /* Build configuration list for PBXNativeTarget "Technovation GirlsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723073482612FF9A0051EBBC /* Debug */,
+				723073492612FF9A0051EBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7230730F2612FF950051EBBC /* Project object */;
+}
