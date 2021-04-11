@@ -20,7 +20,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
             self.present(picker,animated:true,completion:nil);    func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
+            }
+            
 
 
 }
