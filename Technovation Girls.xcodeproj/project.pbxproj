@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7203C86F26231A3D00493571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7203C86D26231A3D00493571 /* Main.storyboard */; };
+		7203C88526231C1500493571 /* スクリーンショット 2021-04-11 20.58.57.png in Resources */ = {isa = PBXBuildFile; fileRef = 7203C88426231C1500493571 /* スクリーンショット 2021-04-11 20.58.57.png */; };
+		7203C88A26231D6A00493571 /* ２.png in Resources */ = {isa = PBXBuildFile; fileRef = 7203C88926231D6900493571 /* ２.png */; };
+		7203C89A26231EED00493571 /* プレゼント.png in Resources */ = {isa = PBXBuildFile; fileRef = 7203C89926231EED00493571 /* プレゼント.png */; };
+		7203C89F262C455E00493571 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7203C89E262C455E00493571 /* a.png */; };
 		7230731B2612FF960051EBBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230731A2612FF960051EBBC /* AppDelegate.swift */; };
 		7230731D2612FF960051EBBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230731C2612FF960051EBBC /* SceneDelegate.swift */; };
 		7230731F2612FF960051EBBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230731E2612FF960051EBBC /* ViewController.swift */; };
-		723073222612FF960051EBBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723073202612FF960051EBBC /* Main.storyboard */; };
 		723073242612FF9A0051EBBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723073232612FF9A0051EBBC /* Assets.xcassets */; };
 		723073272612FF9A0051EBBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723073252612FF9A0051EBBC /* LaunchScreen.storyboard */; };
 		723073322612FF9A0051EBBC /* Technovation_GirlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723073312612FF9A0051EBBC /* Technovation_GirlsTests.swift */; };
@@ -35,11 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7203C86E26231A3D00493571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7203C88426231C1500493571 /* スクリーンショット 2021-04-11 20.58.57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2021-04-11 20.58.57.png"; sourceTree = "<group>"; };
+		7203C88926231D6900493571 /* ２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "２.png"; sourceTree = "<group>"; };
+		7203C89926231EED00493571 /* プレゼント.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "プレゼント.png"; sourceTree = "<group>"; };
+		7203C89E262C455E00493571 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
 		723073172612FF960051EBBC /* Technovation Girls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Technovation Girls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7230731A2612FF960051EBBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7230731C2612FF960051EBBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7230731E2612FF960051EBBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		723073212612FF960051EBBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		723073232612FF9A0051EBBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		723073262612FF9A0051EBBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		723073282612FF9A0051EBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +107,11 @@
 		723073192612FF960051EBBC /* Technovation Girls */ = {
 			isa = PBXGroup;
 			children = (
-				723073202612FF960051EBBC /* Main.storyboard */,
+				7203C86D26231A3D00493571 /* Main.storyboard */,
+				7203C89E262C455E00493571 /* a.png */,
+				7203C89926231EED00493571 /* プレゼント.png */,
+				7203C88926231D6900493571 /* ２.png */,
+				7203C88426231C1500493571 /* スクリーンショット 2021-04-11 20.58.57.png */,
 				7230731A2612FF960051EBBC /* AppDelegate.swift */,
 				7230731C2612FF960051EBBC /* SceneDelegate.swift */,
 				7230731E2612FF960051EBBC /* ViewController.swift */,
@@ -231,9 +243,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7203C89A26231EED00493571 /* プレゼント.png in Resources */,
+				7203C88A26231D6A00493571 /* ２.png in Resources */,
+				7203C86F26231A3D00493571 /* Main.storyboard in Resources */,
+				7203C89F262C455E00493571 /* a.png in Resources */,
 				723073272612FF9A0051EBBC /* LaunchScreen.storyboard in Resources */,
+				7203C88526231C1500493571 /* スクリーンショット 2021-04-11 20.58.57.png in Resources */,
 				723073242612FF9A0051EBBC /* Assets.xcassets in Resources */,
-				723073222612FF960051EBBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,10 +312,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		723073202612FF960051EBBC /* Main.storyboard */ = {
+		7203C86D26231A3D00493571 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				723073212612FF960051EBBC /* Base */,
+				7203C86E26231A3D00493571 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
