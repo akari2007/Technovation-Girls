@@ -39,7 +39,6 @@
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="Onclickpay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c3y-Rf-BZ4"/>
                                     <segue destination="9k3-Js-wH7" kind="show" id="lnD-8J-jZm"/>
                                 </connections>
                             </button>
