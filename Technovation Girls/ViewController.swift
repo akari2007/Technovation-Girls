@@ -27,13 +27,36 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
 }
 
 }
-    @IBAction func Onclickdonate(_ sender: Any)
+    @IBAction func TechnovationGirls(_ sender: Any)
+    {let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let next = storyboard.instantiateViewController(withIdentifier: "5")
+        self.present(next, animated: true, completion: nil)
+    }
+    @IBAction func Onclickpay(_ sender: Any)
     {let next = storyboard?.instantiateViewController(withIdentifier: "2")
         self.present(next!, animated: true, completion: nil)
     }
-    @IBAction func Onclickpay(_ sender: Any)
-    {let next = storyboard?.instantiateViewController(withIdentifier: "5")
-        self.present(next!, animated: true, completion: nil)
+    
+    @IBAction func Onclickget(_ sender: Any)
+    {let next = storyboard?.instantiateViewController(withIdentifier: "4")
+            self.present(next!, animated: true, completion: nil)
     }
+    
+    @IBAction func Onclicknoget(_ sender: Any)
+    {let next = storyboard?.instantiateViewController(withIdentifier: "7")
+        self.present(next!, animated: true, completion: nil)    }
+
+    
+    @IBAction func Onclickhome(_ sender: Any) {
+        let next = storyboard?.instantiateViewController(withIdentifier: "1")
+                self.present(next!, animated: true, completion: nil)
+        
+        
+    }
+    @IBAction func Onclickcainz(_ sender: Any)
+    {let next = storyboard?.instantiateViewController(withIdentifier:"6")
+                self.present(next!, animated: true, completion: nil)    }
 }
+
+
 
